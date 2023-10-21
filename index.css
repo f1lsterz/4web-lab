@@ -143,11 +143,11 @@ h2 {
     margin-top: 40px;
 }
 
-@media (max-width: 1024px) { /* Приблизна ширина для телефонів, ви можете вибрати свою власну */
+@media (max-width: 1024px) {
     .pictures {
         padding-bottom: 40px;
-        flex-direction: column; /* Відображати блоки в стовпчик на телефонах */
-        align-items: center; /* Вирівнювати по центру */
+        flex-direction: column;
+        align-items: center;
         margin-top: 70px;
         gap: 60px;
     }
@@ -155,13 +155,13 @@ h2 {
     .bottom p {
         margin: 5px;
         font-size: 15px;
-        text-align: center; /* Розміщення тексту по центру */
-        word-wrap: break-word; /* Розбивка тексту, якщо не поміщається в блок */
+        text-align: center;
+        word-wrap: break-word;
         width: initial;
     }
     .red-square {
-        width: 100%; /* Розтягувати блок на весь екран на телефонах */
-        max-width: 400px; /* Максимальна ширина блоку */
+        width: 100%;
+        max-width: 400px;
         height: 160px;
     }
 
@@ -176,7 +176,7 @@ h2 {
     }
     h2 {
         margin-top: 10px;
-        text-align: center; /* Розміщення тексту по центру */
+        text-align: center;
         width: initial;
         font-size: 25px;
     }
